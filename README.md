@@ -1,6 +1,6 @@
 # Cyhermes Assesssment (Static Web Page)
 
-I implemented a static web page with React, as well as styling with SASS. The Design specification can be found [here](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig). Since this is a static web page, I specifically used large screen size (1420px x 567px). The webpage may not render well when accessed on mobile or tablet screen sizes, as it is not responsive.
+I implemented a static web page with React, as well as styling with SASS. The Design specification can be found [here](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig). Since this is a static web page, I specifically used large screen size (1420px x 567px). I used BEM-CSS methodology for my CSS rules. The webpage may not render well when accessed on mobile or tablet screen sizes, as it is not responsive.
 
 ## Built with
 
