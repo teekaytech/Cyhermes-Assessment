@@ -1,0 +1,98 @@
+@import "./shared.scss";
+
+.Subscribe {
+  margin: 2em auto;
+  display: flex;
+  justify-content: space-between;
+
+  article {
+    width: 45%;
+    color: $inactive;
+    padding: 2em;
+  }
+
+  .Start {
+    -webkit-box-shadow: -68px 105px 115px -70px rgba(166, 194, 255, 0.51);
+    -moz-box-shadow: -68px 105px 115px -70px rgba(166, 194, 255, 0.51);
+    box-shadow: -68px 105px 115px -70px rgba(166, 194, 255, 0.51);
+
+    .Content {
+      &__init {
+        color: $secondary;
+      }
+
+      &__currency {
+        font-weight: bold;
+      }
+
+      &__amount {
+        color: $primary;
+        font-weight: 900;
+        font-size: 125%;
+      }
+
+      &__currency,
+      &__amount {
+        display: block;
+        margin: 0.4em 0;
+      }
+    }
+
+    .Current {
+      margin-top: 3em;
+      &__plan {
+        display: block;
+        color: $primary;
+        font-weight: 900;
+        font-size: 125%;
+        margin-bottom: 0.5em;
+      }
+
+      &__dot {
+        display: inline-block;
+        color: $secondary;
+        font-size: -50%;
+        margin: 0 0.5em;
+      }
+    }
+  }
+
+  .Plan {
+    position: relative;
+    border: 1px solid $blue;
+    border-radius: 10px;
+    background: rgba(100, 130, 255, 0.1);
+
+    &__mark {
+      position: absolute;
+      top: -0.8em;
+      right: -0.8em;
+      background-color: $subscribe;
+      color: $light;
+      display: inline-block;
+      padding: 0.25em 0.45em;
+      font-size: 150%;
+      border-radius: 50%;
+    }
+
+    &__header {
+      color: $blue;
+      font-size: 1.2em;
+      margin: 0.4em 0;
+    }
+
+    &__days {
+      font-weight: bold;
+    }
+
+    &__more {
+      margin-bottom: 1.5em;
+    }
+
+    &__package {
+      &--items {
+        margin: 0.3em 0;
+      }
+    }
+  }
+}
