@@ -5,12 +5,17 @@ const Module = ({ item }) => {
   const { title, sub, img } = item;
   return (
     <article className="Module">
-      <img src={img} alt="logo" className="Module_image" />
-      <p className="Module_details">
-        {title}
-        <br />
-        {sub}
-      </p>
+      <div className="Module__info">i</div>
+      <div className="Module__item1">
+        <img src={img} alt="logo" className="image" />
+      </div>
+      <div className="Module__item2">
+        <p className="details">
+          {title}
+          <br />
+          {sub}
+        </p>
+      </div>
     </article>
   );
 };

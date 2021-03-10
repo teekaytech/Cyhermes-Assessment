@@ -1,11 +1,47 @@
+@import "./shared.scss";
+
 .Module {
   display: flex;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 3em;
+  position: relative;
 
-  &__image {
-    width: 150%;
+  &__info {
+    display: none;
+    position: absolute;
+    bottom: auto;
+    right: 0.5em;
+    background-color: $secondary;
+    color: $light;
+    padding: 0.1em 0.5em;
+    border-radius: 100%;
+    font-style: italic;
+    font-size: small;
   }
 
-  &__details {
-    font-size: 0.7em;
+  &__item1 {
+    width: 20%;
+
+    .image {
+      width: 80%;
+    }
+  }
+
+  &__item2 {
+    width: 80%;
+
+    .details {
+      font-size: 0.9em;
+    }
+  }
+
+  &:hover {
+    background-color: $hover;
+    color: $primary;
+
+    .Module__info {
+      display: inline-block;
+    }
   }
 }
