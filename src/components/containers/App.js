@@ -1,6 +1,6 @@
 import '../../stylesheets/App.scss';
 import SidePanel from '../SidePanel';
-import Main from '../Main';
+import Main from './Main';
 
 function App() {
   return (

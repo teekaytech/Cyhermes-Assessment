@@ -1,0 +1,58 @@
+@import "./shared.scss";
+
+.Header {
+  &__greeting {
+    text-transform: uppercase;
+    font-weight: bolder;
+  }
+
+  &__greeting,
+  .Item__details {
+    color: $inactive;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+
+    .Item {
+      padding: 0.4em 0;
+      &__header {
+        font-size: 1.8em;
+        margin: 0.3em 0 0.7em 0;
+
+        span {
+          font-style: italic;
+          font-size: 1em;
+          font-weight: 400;
+          color: $secondary;
+        }
+      }
+
+      &__currency {
+        color: $light-blue;
+        font-weight: bold;
+      }
+
+      &__amount {
+        color: $blue;
+        font-weight: bolder;
+        font-size: 2.2em;
+      }
+
+      &__remark {
+        color: $remark;
+        font-weight: bold;
+        font-size: 1.3em;
+
+        &--details {
+          display: inline-block;
+          font-weight: normal;
+          text-transform: uppercase;
+          font-size: 0.6em;
+          padding-left: 0.3em;
+        }
+      }
+    }
+  }
+}
