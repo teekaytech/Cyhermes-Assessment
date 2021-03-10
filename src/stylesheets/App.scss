@@ -1,14 +1,12 @@
 @import "./shared.scss";
 
 .App {
-  height: 100vh;
   display: flex;
 
   &__sideNav {
     width: 30%;
     background-color: $primary;
     color: $light;
-    height: 100%;
   }
 
   &__board {

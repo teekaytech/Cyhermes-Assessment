@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Cyhermes Assesssment (Static Web Page)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I implemented a static web page with React, as well as styling with SASS. The Design specification can be found [here](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig). Since this is a static web page, I specifically used large screen size (1420ox x 567px). The webpage may not render well when accessed on mobile or tablet screen sizes, as it is not responsive.
+
+## Built with
+
+- React (Create React App)
+- SASS (Node Sass)
+- ESlint / Stylelint (Linters)
+- GitHub/Netlify (Deployment)
 
 ## Available Scripts
 
@@ -68,3 +75,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
