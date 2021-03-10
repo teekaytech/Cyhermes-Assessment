@@ -1,7 +1,5 @@
-import '../stylesheets/sidepanel.css'
+import '../stylesheets/sidepanel.css';
 
-const SidePanel = () => {
-  return ( <p>SidePanel</p> );
-}
+const SidePanel = () => (<p>SidePanel</p>);
 
 export default SidePanel;
