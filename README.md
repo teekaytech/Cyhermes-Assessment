@@ -10,7 +10,7 @@ I implemented a static web page with React, as well as styling with SASS. The De
 - Git/GitHub
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/cf702438-b775-4cce-acca-43377530f78c/deploy-status)](https://app.netlify.com/sites/cyhermes/deploys)
 
-## Live demo: [Live Demo Link](cyhermes.netlify.app)
+## Live demo: [Live Demo Link](https://cyhermes.netlify.app)
 
 ## Getting started
 
@@ -98,4 +98,4 @@ Give a :star: if you like this project!
 
 ## License
 
-Distributed under the [MIT License](https://github.com/teekaytech/Neobael-Assessment/blob/main/LICENSE).
+Distributed under the [MIT License](https://github.com/teekaytech/Cyhermes-Assessment/blob/main/LICENSE).
