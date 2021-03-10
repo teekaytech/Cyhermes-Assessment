@@ -9,12 +9,13 @@ const Main = () => (
     <Header />
     <main>
       <SubscribeCard />
-      <section>
-        <UserBar />
-      </section>
-      <section>
+      <UserBar />
+      <fieldset className="Modules">
+        <legend>
+          ALL MODULES
+        </legend>
         <Module />
-      </section>
+      </fieldset>
       <div>
         <a href="#back">Go Back</a>
         <button type="submit">Continue</button>

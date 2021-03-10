@@ -28,17 +28,15 @@ const SubscribeCard = () => (
         features and features
       </p>
 
-      <p>
-        INCLUDES
-        {' '}
-        <span>--------------------</span>
-      </p>
-      <ul className="Plan__plackage">
-        <li className="Plan__package--items">25 Users</li>
-        <li className="Plan__package--items">All modules & features</li>
-        <li className="Plan__package--items">Unlimited Commitees</li>
-        <li className="Plan__package--items">Unlimited roles creation</li>
-      </ul>
+      <fieldset className="details-field">
+        <legend>INCLUDES</legend>
+        <ul className="Plan__plackage">
+          <li className="Plan__package--items">25 Users</li>
+          <li className="Plan__package--items">All modules & features</li>
+          <li className="Plan__package--items">Unlimited Commitees</li>
+          <li className="Plan__package--items">Unlimited roles creation</li>
+        </ul>
+      </fieldset>
     </article>
   </section>
 );
