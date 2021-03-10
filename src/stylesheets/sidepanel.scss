@@ -1,8 +1,13 @@
 @import "./shared.scss";
 
 .SideBar {
-  display: block;
+  display: flex;
+  flex-direction: column;
   width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-bottom: 4em;
+  color: $inactive;
 
   &__logo {
     padding: 3em 6em 0 4em;
@@ -23,7 +28,8 @@
 
       .activeItem {
         display: none;
-        font-size: 2em;
+        font-size: 1.5em;
+        color: $inactive;
       }
 
       &:hover {
@@ -34,10 +40,61 @@
         .activeItem {
           display: inline;
           position: absolute;
-          top: 0.4em;
+          top: 0.8em;
           right: 5em;
         }
       }
+    }
+  }
+
+  .gettingStarted {
+    padding: 0.5em 6em 1.5em 4em;
+
+    .dotted {
+      display: block;
+      color: $secondary;
+      margin-bottom: 1em;
+    }
+
+    .start {
+      display: block;
+
+      &:hover {
+        color: $light;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &__quote {
+    position: relative;
+    margin: 0 4em 1.5em 5em;
+    border: 0.6px solid $inactive;
+    border-radius: 0.6em;
+    padding: 1.4em 3em 1.4em 4.5em;
+    line-height: 1.3em;
+    color: $light;
+
+    &--text,
+    &--author {
+      color: $inactive;
+      font-size: 0.8em;
+    }
+
+    &--symbol {
+      position: absolute;
+      top: 1.1em;
+      bottom: 0.5em;
+      left: -1.7em;
+      z-index: 11;
+
+      .quoteImg {
+        width: 90%;
+      }
+    }
+
+    &--author {
+      color: inherit;
     }
   }
 }
