@@ -1,0 +1,43 @@
+@import "./shared.scss";
+
+.SideBar {
+  display: block;
+  width: 100%;
+
+  &__logo {
+    padding: 3em 6em 0 4em;
+    margin-bottom: 3em;
+    &--length {
+      width: 25%;
+    }
+  }
+
+  &__nav {
+    list-style-type: none;
+
+    &__item {
+      padding: 1.5em 6em 1.5em 4em;
+      position: relative;
+      font-weight: bold;
+      color: $inactive;
+
+      .activeItem {
+        display: none;
+        font-size: 2em;
+      }
+
+      &:hover {
+        border-left: 0.3em solid $secondary;
+        padding-left: 3.7em;
+        color: $light;
+
+        .activeItem {
+          display: inline;
+          position: absolute;
+          top: 0.4em;
+          right: 5em;
+        }
+      }
+    }
+  }
+}
