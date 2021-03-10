@@ -1,0 +1,11 @@
+.Module {
+  display: flex;
+
+  &__image {
+    width: 150%;
+  }
+
+  &__details {
+    font-size: 0.7em;
+  }
+}

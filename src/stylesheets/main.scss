@@ -3,10 +3,18 @@
 .Modules {
   border: none;
   border-top: 1px solid $author;
+  border-bottom: 1px dashed $light-blue;
   margin-top: 1em;
   color: $inactive;
   font-weight: bold;
   font-size: 0.8em;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 32%;
+    margin: 0.5em 0;
+  }
 }
 
 .FooterNav {
