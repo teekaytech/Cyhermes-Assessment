@@ -1,19 +1,58 @@
 # Cyhermes Assesssment (Static Web Page)
 
-I implemented a static web page with React, as well as styling with SASS. The Design specification can be found [here](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig). Since this is a static web page, I specifically used large screen size (1420ox x 567px). The webpage may not render well when accessed on mobile or tablet screen sizes, as it is not responsive.
+I implemented a static web page with React, as well as styling with SASS. The Design specification can be found [here](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig). Since this is a static web page, I specifically used large screen size (1420px x 567px). The webpage may not render well when accessed on mobile or tablet screen sizes, as it is not responsive.
 
 ## Built with
 
 - React (Create React App)
 - SASS (Node Sass)
 - ESlint / Stylelint (Linters)
-- GitHub/Netlify (Deployment)
+- Git/GitHub
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/cf702438-b775-4cce-acca-43377530f78c/deploy-status)](https://app.netlify.com/sites/cyhermes/deploys)
+
+## Live demo: [Live Demo Link](cyhermes.netlify.app)
+
+## Getting started
+
+To get a local copy up and running follow these simple example steps.
+
+- On the project GitHub page, navigate to the main page of the repository [this page](https://github.com/teekaytech/Cyhermes-Assessment).
+- Under the repository name, locate and click on a green button named `Code`.
+- Copy the project URL as displayed.
+- If you're running Windows Operating System, open your command prompt. On Linux, Open your terminal.
+- Change the current working directory to the location where you want the cloned directory to be made. Leave as it is if the current location is where you want the project to be.
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
+  ```
+  $ git clone https://github.com/teekaytech/Cyhermes-Assessment.git
+  ```
+- Press Enter. Your local copy will be created.
+
+Please Note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03).
+
+### Prerequisites
+
+- Node
+- NPM / NPX
+- Web Browser
+- Text Editor (VSCode, Notepad++)
+
+### Setup
+
+Change working directory to the project's root directory on the terminal, install dependencies with:
+
+```
+npm install
+
+or
+
+yarn install
+```
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+`yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -21,12 +60,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+`yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -34,46 +68,34 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `yarn eject`
+**Taofeek OLALERE**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Portfolio](https://taofeekolalere.me)
+- [Github](https://github.com/teekaytech/)
+- [Twitter](https://twitter.com/ola_lere)
+- [LinkedIn](https://www.linkedin.com/in/olaleretaofeek/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions, issues and feature requests are welcome!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1.  Fork the Project: https://github.com/teekaytech/Cyhermes-Assessment.git
+2.  Open a Pull Request
 
-## Learn More
+Feel free to check the [issues page](https://github.com/teekaytech/Cyhermes-Assessment/issues).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a :star: if you like this project!
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Microverse Linters Config](https://github.com/microverseinc/linters-config/tree/master/react-redux)
+- [Design Specification by Cyhermes](https://1drv.ms/u/s!AmUmROjEXqBxtGUuoaeKGyzLxJy3?e=S89dig)
+- [Create React App](https://github.com/facebook/create-react-app)
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Distributed under the [MIT License](https://github.com/teekaytech/Neobael-Assessment/blob/main/LICENSE).
