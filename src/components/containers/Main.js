@@ -11,14 +11,16 @@ const Main = () => (
       <SubscribeCard />
       <UserBar />
       <fieldset className="Modules">
-        <legend>
-          ALL MODULES
-        </legend>
+        <legend>ALL MODULES</legend>
         <Module />
       </fieldset>
-      <div>
-        <a href="#back">Go Back</a>
-        <button type="submit">Continue</button>
+      <div className="FooterNav">
+        <a href="/" className="FooterNav__back">
+          Go Back
+        </a>
+        <button type="submit" className="FooterNav__forward">
+          Continue
+        </button>
       </div>
     </main>
   </>
