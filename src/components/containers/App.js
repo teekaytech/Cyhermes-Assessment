@@ -1,12 +1,16 @@
-import '../../stylesheets/App.css';
-import Dashboard from './Dashboard';
+import '../../stylesheets/App.scss';
+import SidePanel from '../SidePanel';
+import Main from '../Main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Dashboard />
-      </header>
+      <section className="App__sideNav">
+        <SidePanel />
+      </section>
+      <section className="App__board">
+        <Main />
+      </section>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import '../stylesheets/sidepanel.css';
+import '../stylesheets/sidepanel.scss';
 
 const SidePanel = () => (<p>SidePanel</p>);
 

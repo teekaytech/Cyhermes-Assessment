@@ -1,0 +1,17 @@
+@import "./shared.scss";
+
+.App {
+  display: flex;
+
+  &__sideNav {
+    width: 30%;
+    background-color: $primary;
+    color: $light;
+    height: 100vh;
+  }
+
+  &__board {
+    width: 70%;
+    padding: 50px 100px;
+  }
+}
